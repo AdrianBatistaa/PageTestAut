@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automation Utest</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e88bc051ba86795cd8e2708a91c67f73c187158eeca0f83113c3522cd991c9eb.html">As A User I Want To Login To Swag Labs</a></span>
+                > <span class="truncate-60"><a
+                    href="85935cc18f3d6e4f82144d1997854d735fec9a1bad5cb2c97f31489514dff1b8.html">successful authentication </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-04-2023 17:53</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As A User I Want To Login To Swag Labs </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">successful authentication
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="238600113117877f232005f8fe78953fda4989873008eca916e0a8e4ce52b469.png" title=" Given the user is on the web page" width="1292"/>
+                <img src="238600113117877f232005f8fe78953fda4989873008eca916e0a8e4ce52b469.png" title=" Adrian open up" width="1292"/>
+                <img src="238600113117877f232005f8fe78953fda4989873008eca916e0a8e4ce52b469.png" title=" Adrian opens the Demo page" width="1292"/>
+                <img src="238600113117877f232005f8fe78953fda4989873008eca916e0a8e4ce52b469.png" title=" Adrian open up (completed)" width="1292"/>
+                <img src="238600113117877f232005f8fe78953fda4989873008eca916e0a8e4ce52b469.png" title=" Given the user is on the web page (completed)" width="1292"/>
+                <img src="b02b01d3947347594c6bcb8fdd2b8251c4e75e543d2111a2583d9df18857e6e8.png" title=" When the user enters his username and password
+| username | password |
+| standard_user | secret_sauce |" width="1292"/>
+                <img src="b02b01d3947347594c6bcb8fdd2b8251c4e75e543d2111a2583d9df18857e6e8.png" title=" Adrian login page" width="1292"/>
+                <img src="b02b01d3947347594c6bcb8fdd2b8251c4e75e543d2111a2583d9df18857e6e8.png" title=" Adrian enters 'standard_user' into input that shows us the first name field" width="1292"/>
+                <img src="b02b01d3947347594c6bcb8fdd2b8251c4e75e543d2111a2583d9df18857e6e8.png" title=" Adrian enters 'secret_sauce' into input that shows us the first name field" width="1292"/>
+                <img src="9823dab6df06fd4fced43be52a833b410588c95c8866d298ff76ed24679286e0.png" title=" Adrian enters 'secret_sauce' into input that shows us the first name field (completed)" width="1292"/>
+                <img src="9823dab6df06fd4fced43be52a833b410588c95c8866d298ff76ed24679286e0.png" title=" Adrian clicks on button that shows us the form to register" width="1292"/>
+                <img src="68e5e74507d5c8409bc6d64a76f37b5fdef7d316e895e0e97ece0ff79fa2e950.png" title=" Adrian clicks on button that shows us the form to register (completed)" width="1292"/>
+                <img src="68e5e74507d5c8409bc6d64a76f37b5fdef7d316e895e0e97ece0ff79fa2e950.png" title=" Adrian login page (completed)" width="1292"/>
+                <img src="68e5e74507d5c8409bc6d64a76f37b5fdef7d316e895e0e97ece0ff79fa2e950.png" title=" Adrian product" width="1292"/>
+                <img src="68e5e74507d5c8409bc6d64a76f37b5fdef7d316e895e0e97ece0ff79fa2e950.png" title=" Adrian clicks on button to select product" width="1292"/>
+                <img src="b27b13272e6cef96196c0768efeb49e4737ac76c8fb3fad985d9c223f465c709.png" title=" Adrian clicks on button to select product (completed)" width="1292"/>
+                <img src="b27b13272e6cef96196c0768efeb49e4737ac76c8fb3fad985d9c223f465c709.png" title=" Adrian clicks on button to select product" width="1292"/>
+                <img src="19b5caa7876e5bf6da4b913bb10ea75afdbd3e326f9db0589d2aae21c4f9d8ad.png" title=" Adrian clicks on button to select product (completed)" width="1292"/>
+                <img src="19b5caa7876e5bf6da4b913bb10ea75afdbd3e326f9db0589d2aae21c4f9d8ad.png" title=" Adrian clicks on button to select cart" width="1292"/>
+                <img src="679bd48d3e8ff21dc2351b61d1c8df8f370a3f789c28c5f144874a951a5786c6.png" title=" Adrian clicks on button to select cart (completed)" width="1292"/>
+                <img src="679bd48d3e8ff21dc2351b61d1c8df8f370a3f789c28c5f144874a951a5786c6.png" title=" Adrian clicks on button to select cart" width="1292"/>
+                <img src="3908d46ac6a0e79bc65bd38764e6af2a4a55f34cd88648d074cbf8b8ada1a210.png" title=" Adrian clicks on button to select cart (completed)" width="1292"/>
+                <img src="3908d46ac6a0e79bc65bd38764e6af2a4a55f34cd88648d074cbf8b8ada1a210.png" title=" Adrian product (completed)" width="1292"/>
+                <img src="3908d46ac6a0e79bc65bd38764e6af2a4a55f34cd88648d074cbf8b8ada1a210.png" title=" When the user enters his username and password
+| username | password |
+| standard_user | secret_sauce | (completed)" width="1292"/>
+                <img src="9864425d97d51830123adc50d96aec439048a8d03486edbb9f67d38e5463d4bb.png" title=" Then the user will be able to see products
+| firstname | lastname | postalcode |
+| Adrian | Batista | 546551 |" width="1292"/>
+                <img src="9864425d97d51830123adc50d96aec439048a8d03486edbb9f67d38e5463d4bb.png" title=" Adrian purchase form" width="1292"/>
+                <img src="9864425d97d51830123adc50d96aec439048a8d03486edbb9f67d38e5463d4bb.png" title=" Adrian enters 'Adrian' into input that shows us the first name field" width="1292"/>
+                <img src="9864425d97d51830123adc50d96aec439048a8d03486edbb9f67d38e5463d4bb.png" title=" Adrian enters 'Batista' into input that shows us the first name field" width="1292"/>
+                <img src="77a538865fe4e91569c25f637b2a6ff413a2d32aea57b6dec386945f0eb6d1ef.png" title=" Adrian enters 'Batista' into input that shows us the first name field (completed)" width="1292"/>
+                <img src="77a538865fe4e91569c25f637b2a6ff413a2d32aea57b6dec386945f0eb6d1ef.png" title=" Adrian enters '546551' into input that shows us the first name field" width="1292"/>
+                <img src="330edecbd46c04c8cbca1bb80f72ac37b8c874e4efa16040c0aec5b101cdc2db.png" title=" Adrian enters '546551' into input that shows us the first name field (completed)" width="1292"/>
+                <img src="330edecbd46c04c8cbca1bb80f72ac37b8c874e4efa16040c0aec5b101cdc2db.png" title=" Adrian clicks on button to buy" width="1292"/>
+                <img src="e4d3da6d3e1b8fa826205e57cc49cea2f7406ff878bd22b3ff8bce763cfe90da.png" title=" Adrian clicks on button to buy (completed)" width="1292"/>
+                <img src="e4d3da6d3e1b8fa826205e57cc49cea2f7406ff878bd22b3ff8bce763cfe90da.png" title=" Adrian purchase form (completed)" width="1292"/>
+                <img src="e4d3da6d3e1b8fa826205e57cc49cea2f7406ff878bd22b3ff8bce763cfe90da.png" title=" Adrian over view" width="1292"/>
+                <img src="e4d3da6d3e1b8fa826205e57cc49cea2f7406ff878bd22b3ff8bce763cfe90da.png" title=" Adrian clicks on BUTTON TO BUY" width="1292"/>
+                <img src="1113422c67d87ac93e6855ce6a36910cb1ba68e4cc12865930a550afe67750da.png" title=" Adrian clicks on BUTTON TO BUY (completed)" width="1292"/>
+                <img src="1113422c67d87ac93e6855ce6a36910cb1ba68e4cc12865930a550afe67750da.png" title=" Adrian over view (completed)" width="1292"/>
+                <img src="1113422c67d87ac93e6855ce6a36910cb1ba68e4cc12865930a550afe67750da.png" title=" Then the user will be able to see products
+| firstname | lastname | postalcode |
+| Adrian | Batista | 546551 | (completed): <span class='success-color'>SUCCESS</span>" width="1292"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

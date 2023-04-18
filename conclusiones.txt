@@ -1,0 +1,5 @@
+- Conclusiones:
+
+* Serenity BDD nos ayuda a aagilizar las pruebas funcionales y poder realizar todo un flujo en una cultra Devops
+* El flujo se realizo completo y de forma correcta , se seleccionaron los productos y se realizo la compra de los mismos mapaando
+cada locator con la facilidad de los ID 
